@@ -1,7 +1,22 @@
-.nw-bg-red{
+.nw-font-1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nw-font-2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nw-bg-red {
     background-color: #F72210;
 }
 
-.nw-font-red{
+.nw-text-red {
     color: #F72210;
+}
+
+/* header styles */
+
+.home-logo {
+    width: 8rem;
+    object-fit: cover;
 }
