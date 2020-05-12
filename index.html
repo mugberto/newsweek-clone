@@ -25,49 +25,50 @@
     <title>Newsweek</title>
   </head>
   <body>
-
-    <header class="site-header nw-bg-red">
-      <div class="header-top-row d-flex justify-content-between">
-        <div class="top-row-left align-self-center d-flex flex-row flex-nowrap">
-            <a href="#" class="d-lg-none">
+    <div class="wrapper">
+      <header class="site-header nw-bg-red">
+        <div class="header-top-row d-flex justify-content-between">
+          <div class="top-row-left align-self-center d-flex flex-row flex-nowrap">
+              <a href="#" class="d-lg-none">
+                <img
+                  class="d-block home-logo img-fluid"
+                  src="/images/Newsweek_Logo.svg"
+                  alt="Logo"
+                />
+              </a>
+              <a href="#" class="d-none d-sm-block px-4 px-lg-0 text-white weather-link">
+                <span class="weather-info d-lg-block mb-lg-3 nw-font-2">
+                  <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg; 
+                  <span class="weather-location">Kigali, RW 
+                    <i class="fa fas fa-chevron-right"></i>
+                  </span>
+                </span>
+                <time datetime="2020-05-12 12:00" class="d-none d-lg-block nw-font-3">Tue, May 12, 2020</time>
+              </a>
+          </div>
+  
+          <div class="top-row-mid d-none d-lg-flex justify-content-center py-2">
+            <a href="#">
               <img
-                class="d-block home-logo img-fluid"
-                src="/images/Newsweek_Logo.svg"
+                class="d-block home-logo-main img-fluid"
+                src="/images/Newsweek_Logo_main.svg"
                 alt="Logo"
               />
             </a>
-            <a href="#" class="d-none d-sm-block px-4 px-lg-0 text-white weather-link">
-              <span class="weather-info d-lg-block mb-lg-3 nw-font-2">
-                <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg; 
-                <span class="weather-location">Kigali, RW 
-                  <i class="fa fas fa-chevron-right"></i>
-                </span>
-              </span>
-              <time datetime="2020-05-12 12:00" class="d-none d-lg-block nw-font-3">Tue, May 12, 2020</time>
-            </a>
+          </div>
+  
+          <div class="top-row-right align-self-end d-flex flex-row flex-nowrap justify-content-end mb-lg-2">
+            <button type="button" class="d-block nw-bg-red nw-font-2 text-white login-btn">LOGIN</button>
+            <button type="button" class="d-block bg-white nw-font-2 nw-text-red subscribe-btn">
+              SUBSCRIBE <span class="scb-arrow"><i class="fa fas fa-chevron-right"></i></span>
+            </button>
+            <button type="button" class="d-lg-none border-0 nw-bg-red menu-btn">
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
         </div>
-
-        <div class="top-row-mid d-none d-lg-flex justify-content-center py-2">
-          <a href="#">
-            <img
-              class="d-block home-logo-main img-fluid"
-              src="/images/Newsweek_Logo_main.svg"
-              alt="Logo"
-            />
-          </a>
-        </div>
-
-        <div class="top-row-right align-self-end d-flex flex-row flex-nowrap justify-content-end mb-lg-2">
-          <button type="button" class="d-block nw-bg-red nw-font-2 text-white login-btn">LOGIN</button>
-          <button type="button" class="d-block bg-white nw-font-2 nw-text-red subscribe-btn">
-            SUBSCRIBE <span class="scb-arrow"><i class="fa fas fa-chevron-right"></i></span>
-          </button>
-          <button type="button" class="d-lg-none border-0 nw-bg-red menu-btn">
-            <i class="fa fa-bars"></i>
-          </button>
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

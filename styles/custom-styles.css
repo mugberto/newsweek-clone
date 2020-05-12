@@ -1,3 +1,9 @@
+/* General style */
+.wrapper {
+    min-width: 340px;
+    max-width: 1312px;
+    margin: 0 auto;
+}
 .nw-font-1 {
     font-family: Arial, Helvetica, sans-serif;
 }
