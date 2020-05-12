@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, strink-to-fit=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link
       rel="stylesheet"
@@ -12,28 +12,45 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/custom-styles.css" />
     <script
       src="https://kit.fontawesome.com/9b6ee7cdf7.js"
       crossorigin="anonymous"
     ></script>
-    
+
     <title>Newsweek</title>
   </head>
   <body>
-    <header class="site-header nw-bg-red px-3 py-3 d-flex justify-content-between">
-      <div class="text-left">
-        <a href="#" class="home-link">
-          <img class="home-logo" src="/images/Newsweek_Logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <div class="text-right">
-        <a href="#" class="login-link text-white nw-font-2">LOGIN</a>
-        <button class="subscribe-btn border-0 bg-white nw-font-2 nw-text-red">SUBSCRIBE</button>
-        <button class="menu-btn p-0 border-0 text-white nw-bg-red nw-font-2">
-          <i class="fa fa-bars"></i>
-        </button>
+    <header class="site-header nw-bg-red">
+      <div class="header-top-row d-flex justify-content-between">
+        <div class="top-row-left align-self-center d-flex flex-row flex-nowrap">
+            <a href="#">
+              <img
+                class="d-block home-logo img-fluid"
+                src="/images/Newsweek_Logo.svg"
+                alt="Logo"
+              />
+            </a>
+            <a href="#" class="d-none d-sm-block px-4 nw-font-2 text-white weather-link">
+              <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg; 
+              <span class="weather-location">Kigali, RW 
+                <i class="fa fas fa-chevron-right"></i>
+              </span>
+            </a>
+        </div>
+        <div class="top-row-right align-self-center d-flex flex-row flex-nowrap">
+          <button type="button" class="d-block nw-bg-red nw-font-2 text-white login-btn">LOGIN</button>
+          <button type="button" class="d-block bg-white nw-font-2 nw-text-red subscribe-btn">
+            SUBSCRIBE <span class="scb-arrow"><i class="fa fas fa-chevron-right"></i></span>
+          </button>
+          <button type="button" class="border-0 nw-bg-red menu-btn">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
       </div>
     </header>
 

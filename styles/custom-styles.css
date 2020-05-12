@@ -4,6 +4,7 @@
 
 .nw-font-2 {
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 
 .nw-bg-red {
@@ -16,7 +17,66 @@
 
 /* header styles */
 
+.site-header {
+    padding: 12px 15px;
+}
+
 .home-logo {
-    width: 8rem;
-    object-fit: cover;
+    width: 8.25rem;
+    height: auto;
+}
+
+.weather-link {
+    font-size: .9rem;
+}
+
+.weather-location {
+    display: none;
+}
+
+.subscribe-btn, .login-btn {
+    padding: 6px 3px;
+    margin-left: 8px;
+    border: none;
+    font-size: 0.875rem;
+    line-height: 1;
+}
+
+.scb-arrow {
+    display: none;
+}
+
+.menu-btn {
+    padding: 0;
+    margin-left: 12px;
+    font-size: 26px;
+    line-height: .8;
+    color: #fffa;
+}
+
+@media screen and (min-width: 480px) {
+    .subscribe-btn, .login-btn {
+        padding: 4px 10px 4px 8px;
+        margin-left: 8px;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .scb-arrow {
+        display: inline;
+    }
+
+    .menu-btn {
+        padding: 0;
+        margin-left: 24px;
+        font-size: 26px;
+        line-height: .8;
+        color: #fffa;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .weather-location {
+        display: inline;
+    }
 }
