@@ -27,8 +27,8 @@
 
 /* header styles */
 
-.site-header {
-    padding: 12px 15px;
+.header-top-row {
+    padding: 12px 15px 8px;
 }
 
 .home-logo {
@@ -88,6 +88,53 @@
         line-height: .8;
         color: #fffa;
     }
+}
+
+.top-navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.nav-items {
+    padding: 15px 0;
+}
+
+.top-nav-link {
+    font-size: 1.1875rem;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.top-nav-link:not(:first-child){
+    border-left: 1px solid #ddd;
+}
+
+.top-nav-link:hover{
+    text-decoration: none;
+    color: #F72210;
+}
+
+.top-nav-search {
+    flex-shrink: 0;
+    width: 80px;
+}
+
+.search-input {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-icon {
+    top: 55%;
+    right: .5rem;
+    transform: translateY(-50%);
+    color:#555;
+}
+
+.cut-out {
+    flex-shrink: 0;
+    width: 80px;
+    height: inherit;
+    background-image: linear-gradient(37deg, #fff, #fff 50%, #0000 52%,  #0000), linear-gradient(#0000, #0000 20%, #fff 21%,  #fff);
 }
 
 @media screen and (min-width: 641px) {
