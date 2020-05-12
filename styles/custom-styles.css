@@ -7,6 +7,10 @@
     font-weight: bold;
 }
 
+.nw-font-3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .nw-bg-red {
     background-color: #F72210;
 }
@@ -23,6 +27,11 @@
 
 .home-logo {
     width: 8.25rem;
+    height: auto;
+}
+
+.home-logo-main {
+    width: 24.75rem;
     height: auto;
 }
 
@@ -78,5 +87,15 @@
 @media screen and (min-width: 641px) {
     .weather-location {
         display: inline;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .top-row-left, .top-row-right {
+        flex: 1;
+    }
+    
+    .top-row-mid {
+        flex: 2;
     }
 }
