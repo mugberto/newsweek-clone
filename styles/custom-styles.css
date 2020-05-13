@@ -153,3 +153,39 @@
         flex: 2;
     }
 }
+
+/* Top story section styling */
+
+.section-heading {
+    margin-top: 1rem;
+    color: #999;
+    font-size: 1rem;
+}
+
+.card-body{
+    color: #444;
+    font-size: .85rem;
+    line-height: 1.4;
+}
+
+.card-title {
+    line-height: .9;
+}
+
+.story-tag {
+    padding: .5rem 1rem;
+    top: -2.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: #fffd;
+}
+
+.story-link {
+    color: #000;
+    font-size: 1.37rem;
+}
+
+.story-link:hover {
+    color: #000;
+    text-decoration-color: #F72210;
+}
