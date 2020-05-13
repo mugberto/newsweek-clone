@@ -1,4 +1,7 @@
 /* General style */
+body{
+    background-color: #F4F5F6;
+}
 .wrapper {
     min-width: 300px;
     max-width: 1312px;
@@ -164,17 +167,17 @@
 
 .card-body{
     color: #444;
-    font-size: .85rem;
+    font-size: .8rem;
     line-height: 1.4;
 }
 
 .card-title {
-    line-height: .9;
+    line-height: .88;
 }
 
 .story-tag {
     padding: .5rem 1rem;
-    top: -2.5rem;
+    bottom: 0;
     font-size: 1rem;
     line-height: 1rem;
     background-color: #fffd;
