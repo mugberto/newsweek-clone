@@ -165,7 +165,7 @@ body{
     font-size: 1rem;
 }
 
-.card-body{
+.card-body, .story-summary{
     color: #444;
     font-size: .8rem;
     line-height: 1.4;
