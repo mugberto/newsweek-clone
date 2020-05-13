@@ -26,29 +26,38 @@
   </head>
   <body>
     <div class="wrapper">
-
       <header class="site-header nw-bg-red">
         <div class="header-top-row d-flex justify-content-between">
-          <div class="top-row-left align-self-center d-flex flex-row flex-nowrap flex-lg-column">
-              <a href="#" class="d-lg-none">
-                <img
-                  class="d-block home-logo img-fluid"
-                  src="./images/Newsweek_Logo.svg"
-                  alt="Logo"
-                />
-              </a>
-              
-              <a href="#" class="d-none d-sm-block px-4 px-lg-0 text-white weather-link">
-                <span class="weather-info d-lg-block mb-lg-3 nw-font-2">
-                  <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg; 
-                  <span class="weather-location">Kigali, RW 
-                    <i class="fa fas fa-chevron-right"></i>
-                  </span>
+          <div
+            class="top-row-left align-self-center d-flex flex-row flex-nowrap flex-lg-column"
+          >
+            <a href="#" class="d-lg-none">
+              <img
+                class="d-block home-logo img-fluid"
+                src="./images/Newsweek_Logo.svg"
+                alt="Logo"
+              />
+            </a>
+
+            <a
+              href="#"
+              class="d-none d-sm-block px-4 px-lg-0 text-white weather-link"
+            >
+              <span class="weather-info d-lg-block mb-lg-3 nw-font-2">
+                <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg;
+                <span class="weather-location"
+                  >Kigali, RW
+                  <i class="fa fas fa-chevron-right"></i>
                 </span>
-              </a>
-              <time datetime="2020-05-12 12:00" class="d-none d-lg-block nw-font-3 text-white">Tue, May 12, 2020</time>
+              </span>
+            </a>
+            <time
+              datetime="2020-05-12 12:00"
+              class="d-none d-lg-block nw-font-3 text-white"
+              >Tue, May 12, 2020</time
+            >
           </div>
-  
+
           <div class="top-row-mid d-none d-lg-flex justify-content-center py-2">
             <a href="#">
               <img
@@ -58,11 +67,24 @@
               />
             </a>
           </div>
-  
-          <div class="top-row-right align-self-end d-flex flex-row flex-nowrap justify-content-end mb-lg-2">
-            <button type="button" class="d-block nw-bg-red nw-font-2 text-white login-btn">LOGIN</button>
-            <button type="button" class="d-block bg-white nw-font-2 nw-text-red subscribe-btn">
-              SUBSCRIBE <span class="scb-arrow"><i class="fa fas fa-chevron-right"></i></span>
+
+          <div
+            class="top-row-right align-self-end d-flex flex-row flex-nowrap justify-content-end mb-lg-2"
+          >
+            <button
+              type="button"
+              class="d-block nw-bg-red nw-font-2 text-white login-btn"
+            >
+              LOGIN
+            </button>
+            <button
+              type="button"
+              class="d-block bg-white nw-font-2 nw-text-red subscribe-btn"
+            >
+              SUBSCRIBE
+              <span class="scb-arrow"
+                ><i class="fa fas fa-chevron-right"></i
+              ></span>
             </button>
             <button type="button" class="d-lg-none border-0 nw-bg-red menu-btn">
               <i class="fa fa-bars"></i>
@@ -71,7 +93,9 @@
         </div>
 
         <nav class="top-navbar d-none d-lg-flex">
-          <div class="nav-items bg-white flex-fill d-flex nw-font-2 text-center">
+          <div
+            class="nav-items bg-white flex-fill d-flex nw-font-2 text-center"
+          >
             <a href="#" class="flex-fill top-nav-link">U.S.</a>
             <a href="#" class="flex-fill top-nav-link">World</a>
             <a href="#" class="flex-fill top-nav-link">Busness</a>
@@ -85,8 +109,16 @@
             <a href="#" class="flex-fill top-nav-link">Weather</a>
           </div>
           <div class="top-nav-search position-relative bg-white">
-            <input type="text" name="nav-search" id="nav-search" class="position-relative search-input border-0 w-100" placeholder="Search">
-            <span class="d-block search-icon position-absolute"><i class="fa fas fa-search"></i></span>
+            <input
+              type="text"
+              name="nav-search"
+              id="nav-search"
+              class="position-relative search-input border-0 w-100"
+              placeholder="Search"
+            />
+            <span class="d-block search-icon position-absolute"
+              ><i class="fa fas fa-search"></i
+            ></span>
           </div>
           <div class="cut-out"></div>
         </nav>
@@ -97,7 +129,25 @@
           <h1 class="hidden" hidden>RECENT NEWS</h1>
           <section class="top-story">
             <h2>TOP STORY</h2>
+            <article class="card">
+              <img src="./images/who-tedros-xi-jinping-china-meeting.jpg" class="card-img-top" alt="Tedros and Xi Jimping" />
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="#">
+                    Exclusive: CIA Believes China Tried to Stop WHO Declaring
+                    Public Emergency
+                  </a>
+                </h3>
+                <p class="card-text">
+                  China threatened the WHO that the country would stop
+                  cooperating with the agency's coronavirus investigation if it
+                  declared a global health emergency, a CIA report confirmed to
+                  Newsweek showed.
+                </p>
+              </div>
+            </article>
           </section>
+
           <section class="featured-stories">
             <h2>FEATURED STORIES</h2>
           </section>
@@ -123,7 +173,6 @@
           <aside class="sponsored-articles-2"></aside>
         </section>
       </main>
-
     </div>
 
     <script
