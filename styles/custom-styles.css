@@ -175,6 +175,10 @@ body{
     line-height: .88;
 }
 
+.media-title {
+    line-height: .8;
+}
+
 .story-tag {
     padding: .5rem 1rem;
     bottom: 0;
@@ -191,4 +195,16 @@ body{
 .story-link:hover {
     color: #000;
     text-decoration-color: #F72210;
+}
+
+.story-link-small {
+    color: #000;
+    font-size: 1rem;
+}
+
+.opinion-author {
+    margin-top: 1rem;
+    color: #777;
+    font-size: .95rem;
+    text-transform: uppercase;
 }
