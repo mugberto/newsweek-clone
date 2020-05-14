@@ -325,7 +325,58 @@ body{
     left: 5rem;
 }
 
-.subtext{
+.subtext {
     top: -4rem;
     width: 100%;
+}
+/* .info{
+    line-height: 1rem;
+} */
+.footer-logo {
+    width: 14.75rem;
+    height: auto;
+}
+
+.copyright {
+    font-size: .7rem;
+    color: #666;
+    line-height: .5rem;
+}
+
+.social-channels{
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+.social-link {
+    color: #666;
+}
+
+footer{
+    line-height: 1.6;
+}
+
+.footer-link, .edition-link {
+    font-size: .85rem;
+    color: #666;
+    white-space: nowrap;
+}
+
+
+.footer-link:hover, .edition-link:hover {
+    color: #000;
+}
+
+.footer-link:not(:last-child)::after, .edition-link:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    margin: 0 .6rem;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-link:not(:last-child)::after, .edition-link:not(:last-child)::after {
+        border-right: 1px solid #ccc;
+    }
 }
