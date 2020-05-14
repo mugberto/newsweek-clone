@@ -32,6 +32,10 @@ body{
     background-color: #F72210;
 }
 
+.nw-bg-white {
+    background-color: #F4F5F6;
+}
+
 .nw-text-red {
     color: #F72210;
 }
@@ -179,6 +183,14 @@ body{
     font-size: 1.3rem;
 }
 
+.section-heading-2 {
+    font-size: 1.4rem;
+}
+
+.media-body-heading {
+    font-size: 1.2rem;
+}
+
 .card-body, .story-summary{
     color: #444;
     font-size: .8rem;
@@ -190,7 +202,7 @@ body{
 }
 
 .card-title-small {
-    line-height: .5;
+    line-height: .6;
 }
 
 .media-title {
@@ -288,6 +300,32 @@ body{
 
 .sect-icon {
     padding: 0.1rem .4rem;
-    font-size: 1.5;
+    font-size: 1.5rem;
     line-height: 0rem;
+}
+
+.article-heading {
+    font-size: 1rem;
+}
+
+.cover-pile {
+    box-sizing: content-box;
+    width: 10.625rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+}
+
+.back-cover {
+    width: 10.625rem;
+}
+
+.fore-cover {
+    width: 10.625rem;
+    top: 1rem;
+    left: 5rem;
+}
+
+.subtext{
+    top: -4rem;
+    width: 100%;
 }
