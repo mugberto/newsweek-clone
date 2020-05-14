@@ -374,8 +374,35 @@ footer{
     vertical-align: middle;
 }
 
+.promo-gap-line {
+    margin: 2px 0;
+}
+
 @media screen and (min-width: 768px) {
     .footer-link:not(:last-child)::after, .edition-link:not(:last-child)::after {
         border-right: 1px solid #ccc;
+    }
+
+    .newsletter,
+    .subscribe, 
+    .editors-pick {
+        border-bottom: none !important;
+    }
+    
+}
+
+.nl-img-container {
+    width: 12rem;
+}
+
+.nl-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .nl-img-container {
+        width: 45%;
     }
 }
