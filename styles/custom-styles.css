@@ -20,6 +20,14 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.nw-font-4 {
+    font-family: Lora, sans-serif;
+}
+
+.nw-font-5 {
+    font-family: 'Helvetica neue', Helvetica, sans-serif;
+}
+
 .nw-bg-red {
     background-color: #F72210;
 }
@@ -165,14 +173,24 @@ body{
     font-size: 1rem;
 }
 
+.section-heading-1 {
+    margin-top: 1rem;
+    color: #000;
+    font-size: 1.3rem;
+}
+
 .card-body, .story-summary{
     color: #444;
     font-size: .8rem;
     line-height: 1.4;
 }
 
-.card-title {
+.card-title-big {
     line-height: .88;
+}
+
+.card-title-small {
+    line-height: .5;
 }
 
 .media-title {
@@ -185,6 +203,28 @@ body{
     font-size: 1rem;
     line-height: 1rem;
     background-color: #fffd;
+}
+
+.story-tag-focus {
+    padding: .5rem 1rem;
+    bottom: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: #F72210;
+}
+
+.story-tag-1 {
+    padding: .2rem .4rem;
+    bottom: 0;
+    font-size: .8rem;
+    line-height: 1rem;
+    background-color: #dffd;
+}
+
+.story-tag-2 {
+    padding: .4rem .4em;
+    font-size: 1rem;
+    line-height: 1rem;
 }
 
 .story-link {
@@ -244,4 +284,10 @@ body{
     background-color: #000;
     font-size: 1.3rem;
     padding: .3rem 0;
+}
+
+.sect-icon {
+    padding: 0.1rem .4rem;
+    font-size: 1.5;
+    line-height: 0rem;
 }
