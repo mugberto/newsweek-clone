@@ -385,8 +385,13 @@ footer{
 
     .newsletter,
     .subscribe, 
-    .editors-pick {
+    .editors-pick,
+    .in-the-magazine {
         border-bottom: none !important;
+    }
+
+    .border-bottom-itm {
+        border-bottom: 1px solid #dee2e6;
     }
     
 }
