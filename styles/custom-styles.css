@@ -378,22 +378,39 @@ footer{
     margin: 2px 0;
 }
 
+.border-bottom-itm-2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nw-bb {
+    border-bottom: 1px solid #dee2e6;
+}
+
 @media screen and (min-width: 768px) {
     .footer-link:not(:last-child)::after, .edition-link:not(:last-child)::after {
         border-right: 1px solid #ccc;
     }
 
-    .newsletter,
-    .subscribe, 
-    .editors-pick,
-    .in-the-magazine {
-        border-bottom: none !important;
+    .nw-bb {
+        border-bottom: none;
     }
 
-    .border-bottom-itm {
+    .border-bottom-itm-1::after{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1rem;
         border-bottom: 1px solid #dee2e6;
     }
-    
+
+    aside[class|="sponsored-articles"] > .card {
+        max-width: 20.625rem;
+        margin: 0 auto;
+    }
 }
 
 .nl-img-container {
@@ -410,4 +427,17 @@ footer{
     .nl-img-container {
         width: 45%;
     }
+
+    .nw-rcnt-bg {
+        background-color:#fff;
+    }
 }
+
+section[class|="cat"]:not(:last-child)::after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+    height: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
