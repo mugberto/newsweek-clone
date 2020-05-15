@@ -411,6 +411,13 @@ footer{
         max-width: 20.625rem;
         margin: 0 auto;
     }
+
+    .in-the-magazine-img {
+        height: calc((100vw - 150px) / 4);
+        max-height: calc((1312px - 150px) / 4);
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 .nl-img-container {
