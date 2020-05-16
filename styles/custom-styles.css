@@ -288,7 +288,7 @@ body {
 .sect-icon {
   padding: 0.1rem 0.4rem;
   font-size: 1.5rem;
-  line-height: 0rem;
+  line-height: 0;
 }
 
 .article-heading {
