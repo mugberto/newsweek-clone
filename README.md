@@ -16,7 +16,7 @@ This project consist of building a page that looks like the Newsweek magazine we
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/old-apple-web-homepage-clone/ec75664558f748f6994f922897ad8c380bfe4b8f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mugberto/newsweek-clone/3633c605a1572d213a26336b335956704dae4d91/index.html)
 ​
 
 ## Getting Started
@@ -38,7 +38,7 @@ This project consist of building a page that looks like the Newsweek magazine we
 
 Contributions, issues and feature requests are welcome!
 ​
-Feel free to check the [issues page](https://github.com/mugberto/old-apple-web-homepage-clone/issues).
+Feel free to check the [issues page](https://github.com/mugberto/newsweed-clone/issues).
 ​
 
 ## Show your support
