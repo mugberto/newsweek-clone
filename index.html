@@ -21,17 +21,17 @@
       src="https://kit.fontawesome.com/9b6ee7cdf7.js"
       crossorigin="anonymous"
     ></script>
-
     <title>Newsweek</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="site-header nw-bg-red sticky-top">
+      <header id="site-header" class="nw-bg-red">
         <div class="header-top-row d-flex justify-content-between">
           <div
             class="top-row-left align-self-center d-flex flex-row flex-nowrap flex-lg-column"
+            id="top-row-left"
           >
-            <a href="#" class="d-lg-none">
+            <a href="#" class="d-lg-none" id="side-logo">
               <img
                 class="d-block home-logo img-fluid"
                 src="./images/Newsweek_Logo.svg"
@@ -42,6 +42,7 @@
             <a
               href="#"
               class="d-none d-sm-block px-4 px-lg-0 text-white weather-link"
+              id="weather-link"
             >
               <span class="weather-info d-lg-block mb-lg-3 nw-font-2">
                 <i class="fa fa-cloud"></i> &nbsp;&nbsp;25&deg;
@@ -54,11 +55,13 @@
             <time
               datetime="2020-05-12 12:00"
               class="d-none d-lg-block nw-font-3 text-white"
-              >Tue, May 12, 2020</time
-            >
+              id="header-time"
+              >
+              Tue, May 12, 2020
+            </time>
           </div>
 
-          <div class="top-row-mid d-none d-lg-flex justify-content-center py-2">
+          <div id="main-logo" class="top-row-mid d-none d-lg-flex justify-content-center py-2">
             <a href="#">
               <img
                 class="d-block home-logo-main img-fluid"
@@ -86,13 +89,13 @@
                 ><i class="fa fas fa-chevron-right"></i
               ></span>
             </button>
-            <button type="button" class="d-lg-none border-0 nw-bg-red menu-btn">
+            <button type="button" class="d-lg-none border-0 nw-bg-red menu-btn" id="menu-btn">
               <i class="fa fa-bars"></i>
             </button>
           </div>
         </div>
 
-        <nav class="top-navbar d-none d-lg-flex">
+        <nav id="top-nav" class="top-navbar d-none d-lg-flex">
           <div class="nav-items bg-white flex-fill d-flex nw-font-2 text-center">
             <a href="#" class="flex-fill top-nav-link">U.S.</a>
             <a href="#" class="flex-fill top-nav-link">World</a>
@@ -2361,5 +2364,31 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.onscroll = function(){showNav()}
+      function showNav() {
+        if(window.scrollY > 100) {
+          document.getElementById("site-header").classList.add("fixed-top");
+          document.getElementById("side-logo").classList.remove("d-lg-none");
+          document.getElementById("main-logo").classList.remove("d-lg-flex");
+          document.getElementById("menu-btn").classList.remove("d-lg-none");
+          document.getElementById("top-nav").classList.remove("d-lg-flex");
+          document.getElementById("header-time").classList.remove("d-lg-block");
+          document.getElementById("top-row-left").classList.remove("flex-lg-column");
+          document.getElementById("weather-link").classList.remove("px-lg-0");
+
+        }
+        else{
+          document.getElementById("site-header").classList.remove("fixed-top");
+          document.getElementById("side-logo").classList.add("d-lg-none");
+          document.getElementById("main-logo").classList.add("d-lg-flex");
+          document.getElementById("menu-btn").classList.add("d-lg-none");
+          document.getElementById("top-nav").classList.add("d-lg-flex");
+          document.getElementById("header-time").classList.add("d-lg-block");
+          document.getElementById("top-row-left").classList.add("flex-lg-column");
+          document.getElementById("weather-link").classList.add("px-lg-0");
+        }
+      }
+    </script>
   </body>
 </html>
