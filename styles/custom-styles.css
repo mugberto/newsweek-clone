@@ -392,13 +392,6 @@ aside[class|="sponsored-articles"] > .card {
   margin: 0 auto;
 }
 
-.in-the-magazine-img {
-  height: calc((100vw - 150px) / 4);
-  max-height: calc((1312px - 150px) / 4);
-  width: 100%;
-  object-fit: cover;
-}
-
 .nl-img-container {
   width: 12rem;
 }
@@ -425,6 +418,13 @@ section[class|="cat"]:not(:last-child)::after {
 
   .nw-bb {
     border-bottom: none;
+  }
+
+  .in-the-magazine-img {
+    height: calc((100vw - 150px) / 4);
+    max-height: calc((1312px - 150px) / 4);
+    width: 100%;
+    object-fit: cover;
   }
 }
 
