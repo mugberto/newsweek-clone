@@ -16,7 +16,7 @@ This project consist of building a page that looks like the Newsweek magazine we
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/newsweek-clone/3633c605a1572d213a26336b335956704dae4d91/index.html)
+[Live Demo Link](https://rawcdn.githack.com/mugberto/newsweek-clone/ce3ca80da8fa8985e1706bdf7608a2af25c23b2f/index.html)
 ​
 
 ## Getting Started
