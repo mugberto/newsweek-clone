@@ -285,6 +285,32 @@ body {
   padding: 0.3rem 0;
 }
 
+.signup-card {
+  margin: 0 auto 2rem;
+  width: 19rem;
+  background-color: #f4f5f6;
+}
+
+.signup-card-icon {
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.signup-card-text {
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+.signup-card-text-1 {
+  font-size: 0.9rem;
+}
+
+.signup-card-text-1 span {
+  font-size: 0.7rem;
+}
+
 .sect-icon {
   padding: 0.1rem 0.4rem;
   font-size: 1.5rem;
@@ -387,11 +413,6 @@ footer {
   border-bottom: 1px solid #dee2e6;
 }
 
-aside[class|="sponsored-articles"] > .card {
-  max-width: 20.625rem;
-  margin: 0 auto;
-}
-
 .nl-img-container {
   width: 12rem;
 }
@@ -425,6 +446,11 @@ section[class|="cat"]:not(:last-child)::after {
     max-height: calc((1312px - 150px) / 4);
     width: 100%;
     object-fit: cover;
+  }
+
+  aside[class|="sponsored-articles"] > .card {
+    max-width: 20.625rem;
+    margin: 0 auto;
   }
 }
 
